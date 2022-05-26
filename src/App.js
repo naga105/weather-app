@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import logo from './utils/image/weather-icon.png';
 import './App.css';
 
-function App() {
+const  App= () => {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <img className="weather-icon" src={logo} alt="" />
+      <h1 className="font-setting">WEATHER `APP</h1>
+
     </div>
   );
 }
