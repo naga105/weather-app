@@ -1,17 +1,49 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(22, 29, 40);
+}
 .container {
   display: flex;
-  margin-left: 4rem;
+  padding-left: 4rem;
+  display: fixed;
+  background-color: rgb(25, 39, 51);
 }
 .font-setting {
   margin-left: 1rem;
-  font-size: 40px;
-  color: hsl(237, 100%, 50%);
+  font-size: 30px;
+  color: white;
+  margin-top: 1.5rem;
 }
 .weather-icon {
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   width: 80px;
   height: 80px;
   border: 0.5px solid blue;
   border-radius: 50%;
   /*color: hsl(75, 100%, 50%); */
+}
+.form-box {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.display-grid {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 40rem 1fr;
+}
+.block-box {
+  padding-left: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 8rem;
+  width: 20rem;
+  border-radius: 18px;
+  /* border: 3px solid yellow; */
+  background-color: rgb(124, 119, 254);
 }
