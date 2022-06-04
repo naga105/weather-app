@@ -11,7 +11,7 @@ const  App= () => {
     </div >
     <Form />
     <div className="display-grid">
-    <Block value="abc"/>
+     <Block value="abc"/>
      <Block value="def"/>
      <Block value="ghi"/>
     </div>

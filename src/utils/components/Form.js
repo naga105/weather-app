@@ -5,8 +5,8 @@ const Form=(props)=>{
     return(
         <div className="form-box">
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Enter City Name" />
-                <button type="submit">Submit</button>
+                <input className="input-text" type="text" placeholder="Enter City Name" />
+                <button className="input-button" type="submit">Submit</button>
                 </form>
         
         </div>

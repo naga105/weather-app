@@ -30,11 +30,37 @@ body {
   margin-left: 2rem;
   margin-top: 1rem;
 }
+.input-text {
+  width: 12rem;
+  height: 1.5rem;
+  border-radius: 18px;
+  padding-left: 0.5rem;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+.input-button {
+  margin-left: 1rem;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(124, 119, 254);
+  transition: transform 100ms linear;
+}
+
+.input-button:hover {
+  transform: scale(1.15);
+}
+
 .display-grid {
   margin-top: 1rem;
   margin-left: 2rem;
   display: grid;
-  gap: 0.5rem;
+  gap: 2rem;
   grid-template-columns: 40rem 1fr;
 }
 .block-box {
@@ -46,4 +72,11 @@ body {
   border-radius: 18px;
   /* border: 3px solid yellow; */
   background-color: rgb(124, 119, 254);
+  transition: background-color 200ms linear;
+}
+.block-box:first-child {
+  width: 40rem;
+}
+.block-box:hover {
+  background-color: rgb(210, 209, 230);
 }
